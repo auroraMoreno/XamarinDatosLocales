@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinDatosLocales.Views.FicheroSimpleView"
+             xmlns:viewmodels="clr-namespace:XamarinDatosLocales.ViewModels">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout.BindingContext>
+                <viewmodels:FicheroSimpleViewModel/>
+            </StackLayout.BindingContext>
+            <Button Text="Leer fichero"
+                    HorizontalOptions="CenterAndExpand"
+                    Command="{Binding ReadFile}"/>
+            <Label HorizontalOptions="FillAndExpand"
+                   VerticalOptions="FillAndExpand"
+                   TextColor="Blue"
+                   Text="{Binding Data}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

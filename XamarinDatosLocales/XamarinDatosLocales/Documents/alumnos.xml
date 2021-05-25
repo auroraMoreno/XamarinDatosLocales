@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<alumnos>
+    <alumno>
+	  <idalumno>1</idalumno>
+      <nombre>Alejandro</nombre>
+      <apellidos>Garcia Vacas</apellidos>
+	  <nota>9</nota>
+    </alumno>
+    <alumno>
+	  <idalumno>2</idalumno>
+      <nombre>Alejandro</nombre>
+      <apellidos>Navaroli Salles</apellidos>
+	  <nota>9</nota>	  
+    </alumno>
+    <alumno>
+	  <idalumno>3</idalumno>
+      <nombre>Aurora</nombre>
+      <apellidos>Moreno Lopez</apellidos>
+	  <nota>9</nota>	  
+    </alumno>
+    <alumno>
+	  <idalumno>4</idalumno>
+      <nombre>Borja</nombre>
+      <apellidos>Jaudenes Baillo</apellidos>
+	  <nota>9</nota>	  
+    </alumno>
+    <alumno>
+	  <idalumno>5</idalumno>
+      <nombre>Carlos</nombre>
+      <apellidos>Campayo Serrano</apellidos>
+	  <nota>9</nota>	  
+    </alumno>
+    <alumno>
+	  <idalumno>6</idalumno>
+      <nombre>Carlota</nombre>
+      <apellidos>Lobo Sanz</apellidos>
+	  <nota>9</nota>	  
+    </alumno>
+    <alumno>
+	  <idalumno>7</idalumno>
+      <nombre>Enrique Javier</nombre>
+      <apellidos>Muñoz Romera</apellidos>
+	  <nota>9</nota>	  
+    </alumno>
+    <alumno>
+	  <idalumno>8</idalumno>
+      <nombre>Felix</nombre>
+      <apellidos>Itiel Arino Gila</apellidos>
+	  <nota>9</nota>	  
+    </alumno>
+    <alumno>
+	  <idalumno>9</idalumno>	
+      <nombre>Gabriel</nombre>
+      <apellidos>Macias Fernandez</apellidos>
+	  <nota>9</nota>	  
+    </alumno>
+    <alumno>
+	  <idalumno>10</idalumno>	
+      <nombre>George Francis</nombre>
+      <apellidos>Shinner Rodriguez</apellidos>
+	  <nota>9</nota>	  
+    </alumno>
+    <alumno>
+	  <idalumno>11</idalumno>	
+      <nombre>Gerard Alexander</nombre>
+      <apellidos>Nina Picon</apellidos>
+	  <nota>9</nota>	  
+    </alumno>
+    <alumno>
+	  <idalumno>12</idalumno>	
+      <nombre>Javier</nombre>
+      <apellidos>Lopez Collado</apellidos>
+	  <nota>9</nota>	  
+    </alumno>
+    <alumno>
+	  <idalumno>13</idalumno>	
+      <nombre>Javier</nombre>
+      <apellidos>Ruano Manzanares</apellidos>
+	  <nota>9</nota>	  
+    </alumno>
+    <alumno>
+	  <idalumno>14</idalumno>	
+      <nombre>Juan Carlos</nombre>
+      <apellidos>Vicente Vicente</apellidos>
+	  <nota>10</nota>	  
+    </alumno>
+    <alumno>
+	  <idalumno>15</idalumno>	
+      <nombre>Manuel</nombre>
+      <apellidos>Menendez Ibañez</apellidos>
+	  <nota>9</nota>	  
+    </alumno>
+    <alumno>
+	  <idalumno>16</idalumno>	
+      <nombre>Maria Victoria</nombre>
+      <apellidos>Castro Dotta</apellidos>
+	  <nota>9</nota>	  
+    </alumno>
+    <alumno>
+	  <idalumno>17</idalumno>	
+      <nombre>Mario</nombre>
+      <apellidos>Canales Sanchez</apellidos>
+	  <nota>9</nota>	  
+    </alumno>
+    <alumno>
+	  <idalumno>18</idalumno>	
+      <nombre>Max Alexander</nombre>
+      <apellidos>Gonzalez Morales</apellidos>
+	  <nota>9</nota>	  
+    </alumno>
+    <alumno>
+	  <idalumno>19</idalumno>	
+      <nombre>Nazaret</nombre>
+      <apellidos>De la Calle Mijan</apellidos>
+	  <nota>9</nota>	  
+    </alumno>
+    <alumno>
+	  <idalumno>20</idalumno>	
+      <nombre>Rafael</nombre>
+      <apellidos>Ruiz de la Fuente</apellidos>
+	  <nota>9</nota>	  
+    </alumno>
+    <alumno>
+	  <idalumno>21</idalumno>	
+      <nombre>Raul</nombre>
+      <apellidos>Castro de la Torre</apellidos>
+	  <nota>9</nota>	  
+    </alumno>
+    <alumno>
+	  <idalumno>22</idalumno>	
+      <nombre>Sergio</nombre>
+      <apellidos>Arribas Sanchez</apellidos>
+	  <nota>9</nota>	  
+    </alumno>
+    <alumno>
+	  <idalumno>23</idalumno>	
+      <nombre>Susana</nombre>
+      <apellidos>Santos Moreno</apellidos>
+	  <nota>9</nota>	  
+    </alumno>
+    <alumno>
+	  <idalumno>24</idalumno>	
+      <nombre>Andres</nombre>
+      <apellidos>Basurto Prato</apellidos>
+	  <nota>9</nota>	  
+    </alumno>
+</alumnos>
