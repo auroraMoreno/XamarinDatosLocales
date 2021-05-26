@@ -1,24 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="XamarinDatosLocales.Views.AlumnosView"
+             x:Class="XamarinDatosLocales.Views.SeriesView"
              xmlns:viewmodels="clr-namespace:XamarinDatosLocales.ViewModels">
     <ContentPage.Content>
         <StackLayout>
             <StackLayout.BindingContext>
-                <viewmodels:AlumnosViewModel/>
+                <viewmodels:SeriesViewModel/>
             </StackLayout.BindingContext>
-            <Button Text="Mostrar alumnos"
-                    Command="{Binding MostrarDatos}"/>
-            <ListView ItemsSource="{Binding Alumnos}">
-                <ListView.BindingContext>
-                </ListView.BindingContext>
+            <Label Text="Hola"/>
+            <ListView ItemsSource="{Binding Series}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
                             <StackLayout Orientation="Horizontal">
-                                <Label Text="{Binding IdAlumno}" FontSize="40"/>
-                                <Label Text="{Binding Apellidos}" FontSize="40"/>
+                                <Image Source="{Binding Imagen}"
+                                       WidthRequest="50"
+                                       HeightRequest="50"/>
+                                <StackLayout Orientation="Vertical">
+                                    <Label Text="{Binding Nombre}"
+                                           TextColor="Blue"/>
+                                    <Label Text="{Binding Valoracion}"
+                                           TextColor="Red"/>
+                                </StackLayout>
                             </StackLayout>
                         </ViewCell>
                     </DataTemplate>

@@ -11,7 +11,7 @@ namespace XamarinDatosLocales
         {
             InitializeComponent();
 
-            MainPage = new AlumnosView();
+            MainPage = new PeliculasView();
         }
 
         protected override void OnStart()

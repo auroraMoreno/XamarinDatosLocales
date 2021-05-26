@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="XamarinDatosLocales.Views.SeriesCarruselView"
+             xmlns:viewmodels="clr-namespace:XamarinDatosLocales.ViewModels"
+             xmlns:converters="clr-namespace:XamarinDatosLocales.Converters">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:ConvertersStars x:Key="converterstars"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout.BindingContext>
+                <viewmodels:SeriesViewModel/>
+            </StackLayout.BindingContext>
+            <Label Text="Carrusel View" TextColor="PaleGreen"
+                   FontSize="30"
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand" />
+            <CarouselView ItemsSource="{Binding Series}">
+                <CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout>
+                            <Label FontSize="35" 
+                                   Text="{Binding Nombre}"/>
+                            <Image Source="{Binding Imagen}" HeightRequest="400"/>
+                            <Image Source="{Binding Valoracion, Converter={StaticResource converterstars}}"/>
+                        </StackLayout>
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
+            </CarouselView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
