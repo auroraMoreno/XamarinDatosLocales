@@ -17,7 +17,7 @@ namespace XamarinDatosLocales.Views
         public PeliculasView()
         {
             InitializeComponent();
-            this.lstviewpeliculas.ItemSelected += Lstviewpeliculas_ItemSelected;
+            this.listviewpelicula.ItemSelected += Lstviewpeliculas_ItemSelected;
         }
 
         private void Lstviewpeliculas_ItemSelected(object sender, SelectedItemChangedEventArgs e)
